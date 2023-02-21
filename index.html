@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A donde Viajar</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="onepage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/unidad7.js"></script>
+</head>
+<body>
+    
+    <header id="cabecera">
+        <div id="marca">
+            <h1>A donde viajar</h1>
+        </div>        
+        <nav id="botonera" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="navbar-link" href="#contenido1">Nosotros</a>
+                    </li>   
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#contenido2">Recomendaciones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contenido3">Destinos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contenido4">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section id="contenido1">
+        <h2>Organizá tu viaje de forma sencilla</h2>
+        <script type="text/javascript"></script>
+        <div id="contenido1_caja1"></div>
+        <div id="contenido1_texto">
+            <p>
+                Cualquiera que sea el viaje a planificar, independientemente del destino o de la duración, siempre surgen las mismas dudas.
+                ¿Cómo conseguir los vuelos a mejores precios? ¿En qué página reservar el alojamiento? ¿Necesitaré una visa?
+                ¡En esta página te ayudaremos a planificar un viaje de forma sencilla!
+            </p>
+        </div>
+    </section>
+
+    <section id="contenido2">
+        <h2>Recomendaciones para organizar tu viaje</h2>
+        <div id="contenido2_texto">
+        <a href="#contenido_oculto" onclick="recomendaciones()" class="recomendaciones">Ver recomendaciones</a>
+            <ul id="mostrar_recomendaciones" style="display: none;">
+                <li>Elegir el destino:</li>
+                    <p>¡No existe una fórmula secreta! simplemente es cuestión de preferencias, presupuesto y situación personal.</p>
+                <li>Revistar si un visado es necesario:</li>
+                    <p>Conocer los requisitos legales para entrar al país es algo fundamental a la hora de planificar un viaje. Cada país tiene sus propias políticas de visados, y las condiciones son diferentes dependiendo de tu nacionalidad.</p>
+                <li>Buscar actividades:</li>
+                    <p>Aunque podemos dejarnos sorprender por lo que tiene para ofrecer nuestro destino, siempre habrá actividades de pago, es mejor investigar primero para estar preparados.</p>
+                <li>Conseguir los vuelos:</li>
+                    <p>La suerte y estar en el momento adecuado en el lugar adecuado juegan un papel fundamental para encontrar una buena oferta de vuelos. Lo primero es usar un buen buscador de vuelos, despues deberías tener en cuenta el número y tiempo de las escalas, y por ultimo, los horarios de salida/llegada. </p>
+                <li>Encontrar alojamiento:</li>
+                    <p>Reservar con antelación es interesante para asegurarte la disponibilidad y conseguir precios decentes, nuestro consejo es que reserves con cancelación gratuita y al acercarse las fechas del viaje, vuelvas a revisar ofertas a ver qué encuentras. ¡A no ser que tengas claro que vas a viajar y encuentres una oferta indecente!</p>
+            </ul>
+        </div>
+        <div id="contenido2_caja1"></div>
+        <div id="contenido2_caja2"></div>
+        
+    </section>
+
+    <section id="contenido3">
+        <h2>Destinos</h2>
+        <div id="contenido3_caja1">
+            <div class="card" style="width: 19rem;">
+                <img src="img/imagen_3.jpg" class="card-img-top img-fluid" alt="Imagen Londres">
+                <div class="card-body">
+                  <p class="card-text"><b>Londres: </b>la capital de Inglaterra y una de las ciudades más visitadas del mundo, alli se encuentra el famoso Palacio de Buckingham, residencia de la monarquía británica. ¡Recomendamos visitarlo durante el cambio de guardia, una ceremonia muy tradicional!</p>
+                  <p class="card-text">Esta ciudad combina una deslumbrante historia apreciable en sus museos, arquitectura o realeza con la modernidad del S.XXI.</p>
+                </div>
+              </div>
+        </div>
+        <div id="contenido3_caja2">
+            <div class="card" style="width: 19rem;">
+                <img src="img/imagen_newyork.jpg" class="card-img-top img-fluid" alt="Imagen Nueva York">
+                <div class="card-body">
+                    <p class="card-text"><b>Nueva York: </b>tantas veces vista en series y películas, la ciudad donde tanta veces hemos soñado visitar esos icónos como la Estatua de la Libertad, Central Park, el Empire State Building, Times Square, Brooklyn o tantos y tantos lugares emblemáticos. </p>
+                    <p class="card-text">Un viaje a Nueva York en cualquier época del año te lleva a la capital de la cultura, de la diversidad, y la emoción del ritmo frenético de Manhattan.</p>
+                </div>
+              </div>
+        </div>
+        <div id="contenido3_caja3">
+            <div class="card" style="width: 19rem;">
+                <img src="img/imagen_brasil.jpg" class="card-img-top img-fluid" alt="Imagen Brasil">
+                <div class="card-body">
+                    <p class="card-text"><b>Río de Janeiro: </b>una de las ciudades más fascinantes de Brasil y del mundo entero. Sus famosas playas; su geografía montañosa al pie del océano Atlántico; el entorno natural; su grandioso carnaval y fascinante historia la hacen uno de los destinos mas elegidos al vacacionar.</p>
+                    <p class="card-text">Alli tambien se encuentra la estatua del Cristo Redentor, ¡su importante valor simbólico ha atraído la visita de los turistas deseosos de develar los misterios de una de las siete maravillas del mundo moderno!</p> 
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section id="contenido4">
+        <div id="formulario" class="container-fluid">
+            <div id="contacto_modulo" class="row">
+                <div id="contenido4_caja1" class="col-sm-6 col-xl-6">
+                    <h5>Cuentanos las experiencias de tus viajes</h5>
+                    <form action="#contenido4">
+                        <input type="text" placeholder="Nombre" class="form-control" required>
+                        <input type="text" placeholder="Apellido" class="form-control" required>
+                        <input type="email" placeholder="Email" class="form-control" required>
+                        <textarea rows="4" class="form-control" placeholder="Mensaje"></textarea>
+
+                        <div class="mb-3">
+                            <label for="formFile" class="form-label">¡Tambien puedes enviar fotos!</label>
+                            <input class="form-control" type="file" id="formFile">
+                          </div>
+                        
+                          <input type="submit" class="btn boton_enviar">
+                    </form>
+                </div>
+                <div id="contenido4_caja2" class="col-sm-6 col-xl-6">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/imagen_paris4.jpg" class="d-block w-100" alt="Paris dia">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/imagen_paris2.jpg" class="d-block w-100" alt="Paris noche">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                      </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contenido5">
+        <h3>Encuesta sobre viajeros</h3>
+        <div id="contenido5_caja1">
+            <h3>
+                <script type="text/javascript">
+                    document.write("<p> ¡Bienvenido, " +nombre_usuario+ "!"+"<p> ¿Cual es el número de viajes realizaste en el ultimo año? Su respuesta: "+ cantidad_viaje + " viajes"+"<p> ¿Cual fue el ultimo destino que visitaste? Su respuesta: "+ ultimo_viaje +"<p> ¿Cual fue el destino favorito que visitaste? Su respuesta: "+ destino_favorito +"<p> ¿Utilizaste alguna guia online para organizar tu viaje anteriormente? Su respuesta: "+ organizar_viaje +"<p> ¿Generalmente, cuantos dias/meses duran tus viajes? Su respuesta: "+ tiempo_viaje)
+                </script>
+            </h3>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <ul>
+            <li><a href="#contenido1">Nosotros</a></li>
+            <li><a href="#contenido2">Recomendaciones</a></li>
+            <li><a href="#contenido3">Destinos</a></li>
+            <li><a href="#contenido4">Contacto</a></li>
+        </ul>
+    </footer>
+    <script type="text/javascript" src="js/unidad8.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
